@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    time.sleep(70)  # sleep 70 seconds
+    time.sleep(59)  # sleep 59 seconds
     return "Hello, OpenShift!"
 
 if __name__ == '__main__':
